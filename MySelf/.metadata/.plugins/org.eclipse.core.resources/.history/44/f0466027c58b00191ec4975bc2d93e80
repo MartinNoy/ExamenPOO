@@ -1,0 +1,51 @@
+package modelo;
+
+public class MedidorAlta {
+	private int idMedidorAlta;
+	private Cliente cliente;
+	private int nroSerie;
+	private String domicilioMedidor;
+	private int zona;
+	public MedidorAlta(int idMedidorAlta, Cliente cliente, int nroSerie, String domicilioMedidor, int zona) {
+		super();
+		this.idMedidorAlta = idMedidorAlta;
+		this.cliente = cliente;
+		this.nroSerie = nroSerie;
+		this.domicilioMedidor = domicilioMedidor;
+		this.zona = zona;
+	}
+	public int getIdMedidorAlta() {
+		return idMedidorAlta;
+	}
+	public void setIdMedidorAlta(int idMedidorAlta) {
+		this.idMedidorAlta = idMedidorAlta;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public int getNroSerie() {
+		return nroSerie;
+	}
+	public void setNroSerie(int nroSerie) {
+		this.nroSerie = nroSerie;
+	}
+	public String getDomicilioMedidor() {
+		return domicilioMedidor;
+	}
+	public void setDomicilioMedidor(String domicilioMedidor) {
+		this.domicilioMedidor = domicilioMedidor;
+	}
+	public int getZona() {
+		return zona;
+	}
+	public void setZona(int zona) {
+		this.zona = zona;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package modelo;
+
+public class Consumo {
+	private int horasValle;
+	private int horasPico;
+	private int horasResto;
+
+}

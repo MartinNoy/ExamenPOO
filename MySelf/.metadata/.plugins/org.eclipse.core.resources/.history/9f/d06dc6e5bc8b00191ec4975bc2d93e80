@@ -1,0 +1,8 @@
+package modelo;
+import java.util.*;
+
+public class Lectura {
+	private int idLectura;
+	private LocalDate fecha;
+
+}

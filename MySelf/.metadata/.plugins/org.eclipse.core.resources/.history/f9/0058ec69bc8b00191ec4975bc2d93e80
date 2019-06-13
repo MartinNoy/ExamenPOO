@@ -1,0 +1,18 @@
+package modelo;
+
+public class Persona {
+	private int idPersona;
+	private String nombre;
+	private String apellido;
+	private long dni;
+	public Persona(int idPersona, String nombre, String apellido, long dni) {
+		super();
+		this.idPersona = idPersona;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.dni = dni;
+	}
+	
+	
+
+}

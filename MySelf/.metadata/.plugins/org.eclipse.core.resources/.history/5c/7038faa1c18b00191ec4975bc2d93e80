@@ -1,0 +1,27 @@
+package modelo;
+
+public class Inspector extends Persona{
+	private int zona;
+
+	public Inspector(int idPersona, String nombre, String apellido, long dni, int zona) {
+		super(idPersona, nombre, apellido, dni);
+		// TODO Auto-generated constructor stub
+		this.zona=zona;
+	}
+
+	public int getZona() {
+		return zona;
+	}
+
+	public void setZona(int zona) {
+		this.zona = zona;
+	}
+
+	@Override
+	public String toString() {
+		return "Inspector [zona=" + zona + "]";
+	}
+	
+	
+
+}

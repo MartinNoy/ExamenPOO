@@ -1,0 +1,13 @@
+package test;
+import modelo.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CoopElectrica ce=new CoopElectrica(); 
+		ce.agregarCliente("Perez", "Ana", 11111111, "111111");
+
+	}
+
+}

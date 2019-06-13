@@ -1,0 +1,9 @@
+package modelo;
+
+public class MedidorAlta {
+	private int idMedidorAlta;
+	private Cliente cliente;
+	private int nroSerie;
+	private String domicilioMedidor
+
+}

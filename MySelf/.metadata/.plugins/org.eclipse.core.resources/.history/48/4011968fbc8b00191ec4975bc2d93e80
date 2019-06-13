@@ -1,0 +1,14 @@
+package modelo;
+
+public class Cliente extends Persona {
+	private String nroCliente;
+
+	public Cliente(int idPersona, String nombre, String apellido, long dni, String nroCliente) {
+		super(idPersona, nombre, apellido, dni);
+		// TODO Auto-generated constructor stub
+		this.nroCliente=nroCliente;
+	}
+	
+
+
+}
